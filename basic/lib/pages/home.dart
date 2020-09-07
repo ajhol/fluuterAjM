@@ -41,11 +41,11 @@ class HomePage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   RaisedButton(
-                    onPressed: () {},
+                    onPressed: () => print('You Press Login'),
                     child: Text('Login'),
                   ),
                   RaisedButton(
-                    onPressed: () {},
+                    onPressed: () => print('You Press Register'),
                     child: Text('Register'),
                   )
                 ],
